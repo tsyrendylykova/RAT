@@ -7,5 +7,5 @@ class Test(models.Model):
     word3 = models.CharField(max_length=50)
     answer = models.CharField(max_length=50)
 
-    def __str__(self):
-        return self.word1, self.word2, self.word3, self.answer
+    #def __str__(self):
+    #    return self.word1, self.word2, self.word3, self.answer
